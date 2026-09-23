@@ -43,7 +43,6 @@ requirements:
     - tomli-w
     - typing-extensions
     - plotext
-    - plotext-plus
     - matplotlib
     - executorlib
     - pipefunc
