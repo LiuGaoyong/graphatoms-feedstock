@@ -42,6 +42,12 @@ requirements:
     - python-snappy >=0.7.3
     - tomli-w
     - typing-extensions
+    - plotext
+    - plotext-plus
+    - matplotlib
+    - executorlib
+    - pipefunc
+    - typer
 
 tests:
   - python:
