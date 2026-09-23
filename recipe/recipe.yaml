@@ -9,7 +9,7 @@ package:
 source:
   url: https://github.com/LiuGaoyong/GraphAtoms/releases/download/v${{ version }}/graphatoms-${{ version }}.tar.gz
   sha256: 4fa001f4c9d764b34ef3b8d199f8c18f18a35293c677db23a98505b446afa567
-  patch:
+  patches:
     - 27.patch
 
 build:
