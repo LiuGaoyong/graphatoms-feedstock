@@ -9,6 +9,8 @@ package:
 source:
   url: https://github.com/LiuGaoyong/GraphAtoms/releases/download/v${{ version }}/graphatoms-${{ version }}.tar.gz
   sha256: 4993c4fb0ccdeaa2d010938c66ffd43002781522ecc490823782e667a555d97f
+  patches:
+    - remove-only-pypi-dependencies.patch
 
 build:
   noarch: python
