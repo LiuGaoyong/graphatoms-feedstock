@@ -42,7 +42,7 @@ requirements:
     - ovld >=0.5
     - pydantic >=2.11
     - python-snappy >=0.7.3
-    - ray-default >= 2.49
+    - ray-default >=2.49
     - tomli-w
     - typing-extensions
     - executorlib
