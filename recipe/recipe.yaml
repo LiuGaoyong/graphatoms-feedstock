@@ -1,5 +1,5 @@
 context:
-  version: "2.0.0"
+  version: "2.1.0"
   python_min: "3.12"
 
 package:
@@ -8,9 +8,7 @@ package:
 
 source:
   url: https://github.com/LiuGaoyong/GraphAtoms/releases/download/v${{ version }}/graphatoms-${{ version }}.tar.gz
-  sha256: 4993c4fb0ccdeaa2d010938c66ffd43002781522ecc490823782e667a555d97f
-  patches:
-    - remove-only-pypi-dependencies.patch
+  sha256: 4fa001f4c9d764b34ef3b8d199f8c18f18a35293c677db23a98505b446afa567
 
 build:
   noarch: python
@@ -44,10 +42,7 @@ requirements:
     - python-snappy >=0.7.3
     - tomli-w
     - typing-extensions
-    - plotext
-    - matplotlib
     - executorlib
-    - pipefunc
     - typer
 
 tests:
